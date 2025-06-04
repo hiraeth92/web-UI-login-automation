@@ -1,6 +1,3 @@
-好的，以下是更完整、結構清楚且方便你直接複製貼上的 README.md 範本，幫你凸顯技術能力與專案價值，提升面試吸引力：
-
-```markdown
 # Selenium 自動化登入測試專案
 
 ## 專案背景與動機
@@ -22,12 +19,12 @@
   精確設定等待條件，確保每個網頁元素均載入完成後再操作，搭配例外捕捉提升系統健壯性，減少因網路或頁面異常導致的測試失敗。
 
 - **自動驅動管理**  
-  利用 `webdriver_manager` 套件自動下載與管理對應版本的 ChromeDriver，免除手動下載的繁瑣，提高專案可移植性。
+  利用 webdriver_manager 套件自動下載與管理對應版本的 ChromeDriver，免除手動下載的繁瑣，提高專案可移植性。
 
 ---
 
 ## 專案架構
-```
+
 
 selenium-login-test/
 │
@@ -36,27 +33,22 @@ selenium-login-test/
 ├── requirements.txt       # 套件依賴列表，方便環境快速建置
 └── README.md              # 專案說明與技術解析（本檔案）
 
-````
-
----
 
 ## 使用說明
 
 ### 環境建置
 1. 安裝 Python 3.8 以上版本  
 2. 執行以下指令安裝必要套件：  
-```bash
 pip install -r requirements.txt
-````
 
 ### 執行測試
 
-1. 修改 `test_cases.json`，設定欲測試的帳號、密碼與預期登入結果。
+1. 修改 test_cases.json，設定欲測試的帳號、密碼與預期登入結果。
 2. 執行測試腳本：
 
-```bash
+
 python test_login.py
-```
+
 
 3. 觀察終端輸出，即可得知每組測試案例的執行結果。
 
@@ -85,14 +77,6 @@ python test_login.py
 * 搭配 CI/CD 工具（Jenkins、GitHub Actions）實現持續整合與自動化測試。
 * 導入專業測試報告工具（Allure、HTMLTestRunner），提升報告品質與專業度。
 
----
-
-## 聯絡方式
-
-如有任何問題或合作意願，歡迎透過以下方式與我聯繫：
-
-* GitHub: \[你的 GitHub 頁面連結]
-* Email: [your.email@example.com](mailto:your.email@example.com)
 
 ---
 
