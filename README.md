@@ -38,18 +38,12 @@ selenium-login-test/
 
 ### 環境建置
 1. 安裝 Python 3.8 以上版本  
-2. 執行以下指令安裝必要套件：  
-pip install -r requirements.txt
+2. 執行以下指令安裝必要套件：  pip install -r requirements.txt
 
 ### 執行測試
 
 1. 修改 test_cases.json，設定欲測試的帳號、密碼與預期登入結果。
-2. 執行測試腳本：
-
-
-python test_login.py
-
-
+2. 執行測試腳本：  python test_login.py
 3. 觀察終端輸出，即可得知每組測試案例的執行結果。
 
 ---
@@ -77,14 +71,10 @@ python test_login.py
 * 搭配 CI/CD 工具（Jenkins、GitHub Actions）實現持續整合與自動化測試。
 * 導入專業測試報告工具（Allure、HTMLTestRunner），提升報告品質與專業度。
 
-
 ---
 
 感謝您的閱讀，期待有機會與您共同推動更完善的自動化測試流程！
 
 ```
 
----
 
-這份 README.md 內容詳盡，結構清晰且強調你的技術能力和實務價值，能讓面試官快速掌握你的專業深度與學習態度。你只要填入 GitHub 與 Email 連結即可直接使用。需要我幫你直接產生檔案嗎？
-```
