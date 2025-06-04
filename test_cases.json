@@ -1,0 +1,22 @@
+[
+  {
+    "username": "tomsmith",
+    "password": "SuperSecretPassword!",
+    "expected": "成功"
+  },
+  {
+    "username": "tomsmith",
+    "password": "wrongpass",
+    "expected": "失敗"
+  },
+  {
+    "username": "wronguser",
+    "password": "SuperSecretPassword!",
+    "expected": "失敗"
+  },
+  {
+    "username": "",
+    "password": "",
+    "expected": "失敗"
+  }
+]
